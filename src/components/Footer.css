@@ -1,0 +1,49 @@
+/* Footer container styles */
+.footer-container {
+    background-color: #222;
+    color: #ddd;
+    padding: 40px 20px;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Individual footer section styles */
+  .footer-section {
+    flex: 1;
+    min-width: 250px;
+  }
+  
+  .footer-section h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: #fff;
+  }
+  
+  .footer-section p {
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  /* Social links */
+  .social-links {
+    display: flex;
+    justify-content: start;
+    gap: 10px;
+  }
+  
+  .social-links a {
+    color: #ddd;
+    font-size: 18px;
+    transition: color 0.3s ease;
+  }
+  
